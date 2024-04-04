@@ -1,11 +1,11 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "node app.js",
+    "build": "run build"
   },
   "author": "",
   "license": "ISC",
@@ -24,5 +24,7 @@
   "devDependencies": {
     "@types/uuid": "^9.0.8",
     "nodemon": "^3.0.3"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
